@@ -13,10 +13,10 @@
     <dubbo:protocol name="dubbo" port="20880"/>
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="com.rust.dubbomock.DemoService" ref="demoService"/>
+    <dubbo:service interface="com.tak.dubbomock.DemoService" ref="demoService"/>
 
     <!-- 创建接口实现类的bean -->
-    <bean id="demoService" class="com.rust.dubbomock.DemoServiceImpl"/>
+    <bean id="demoService" class="com.tak.dubbomock.DemoServiceImpl"/>
 
 
 </beans>
